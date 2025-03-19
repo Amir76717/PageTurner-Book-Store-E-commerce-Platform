@@ -114,31 +114,18 @@ ng serve
 
 ### For Customers
 
-- User registration and authentication
-- Browse and search books by category, author, title
-- View book details including reviews and ratings
-- Add books to shopping cart
-- Process secure checkout
-- Track order status
-- View order history
-- Manage user profile
+- Register and authenticate securely.
+- Explore books by various categories.
+- Add books to the cart and proceed through a secure checkout process.
+- Review and rate purchased books.
+- Manage personal user profiles.
 
-### Admin Features
+### For Admins 
 
-- Comprehensive dashboard with analytics
-- Manage book inventory (add, edit, remove)
-- Manage categories and authors
-- Process and track customer orders
-- View and manage user accounts
-- Generate sales reports
-
-## 🧑‍💻 Contributors
-
-- [Ahmed El Amine](https://github.com/ahmed-el-amine)
-- [Ahmed Essam](https://github.com/AESharak)
-- [Nada Emam](https://github.com/NadaEmamm)
-- [Mustafa Ashraf](https://github.com/Mustafa-Ashraf751)
-- [Fares Edres](https://github.com/FaresEdres)
+- Manage inventory, including add, edit, and remove listings.
+- Oversee order processing and status updates.
+- Analyze sales data and generate reports.
+- Control user access and roles.
 
 ## 📜 License
 
@@ -146,10 +133,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgements
 
-- Information Technology Institute (ITI) for project requirements and guidance
-- MEAN Stack community for excellent documentation and resources
-- All contributors who have helped shape this project
+- Appreciation to the Information Technology Institute (ITI) for their guidance.
+- Gratitude to the MEAN Stack community for their invaluable resources.
 
 ---
 
-Made with ❤️ by the Book Store Development Team
+Made with ❤️ by the PageTurner Development Team

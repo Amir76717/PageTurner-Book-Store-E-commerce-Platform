@@ -49,7 +49,7 @@ PageTurner/
 
 ### Frontend
 
-- **Angular**: v13+ with TypeScript
+- *Frontend: Angular v13+, Angular Material, NgRx, RxJS
 - **Angular Material**: UI component library
 - **NgRx**: State management
 - **RxJS**: Reactive programming

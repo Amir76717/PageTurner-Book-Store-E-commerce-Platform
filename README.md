@@ -49,28 +49,28 @@ PageTurner/
 
 ### Frontend
 
-- *Frontend: Angular v13+, Angular Material, NgRx, RxJS
-- **Angular Material**: UI component library
-- **NgRx**: State management
-- **RxJS**: Reactive programming
-- **HTML5 & CSS3/SCSS**: Markup and styling
-- **Bootstrap**: Responsive design framework
+- Angular v13+
+- Angular Material
+- NgRx
+- RxJS
+- HTML5 & CSS3/SCSS
+- Bootstrap
 
 ### Backend
 
-- **Node.js**: JavaScript runtime
-- **Express.js**: Web application framework
-- **MongoDB**: NoSQL database
-- **Mongoose**: MongoDB object modeling
-- **JWT**: JSON Web Tokens for authentication
-- **Bcrypt**: Password hashing
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- Bcrypt
 
 ### DevOps & Tools
 
-- **Git & GitHub**: Version control
-- **npm**: Package management
-- **ESLint & Prettier**: Code quality
-- **Jest & Jasmine**: Testing frameworks
+- Git & GitHub
+- npm
+- ESLint & Prettier
+- Jest & Jasmine
 
 ## ⚙️ Getting Started
 

@@ -1,0 +1,39 @@
+<div class="book-card">
+  <!-- Book Image with Link to Details -->
+  <div class="book-image-container">
+    <a [routerLink]="['/book-details', bookData._id]" class="image-link">
+      <img [src]="bookData.coverImage" [alt]="bookData.title" class="book-image" />
+      <div class="overlay">
+        <span class="view-details">View Details</span>
+      </div>
+    </a>
+    <!-- Price Tag -->
+    <div class="price-tag">
+      <span>${{ bookData.price.toFixed(2) }}</span>
+    </div>
+  </div>
+
+  <!-- Book Content -->
+  <div class="book-content">
+    <h5 class="book-title text-truncate">{{ bookData.title }}</h5>
+    <p class="book-author">{{ bookData.authors[0].firstName }} {{ bookData.authors[0].lastName }}</p>
+
+    <!-- Rating Stars -->
+    <div class="rating-container">
+      <app-stars-generator [currProduct]="bookData"></app-stars-generator>
+    </div>
+
+    <!-- Add to Cart Button -->
+    <button class="btn btn-primary add-to-cart-btn" 
+            (click)="addToCart()" 
+            [disabled]="isAddingToCart || bookData.stock <= 0">
+      <i class="bi bi-cart-plus me-2"></i>
+      <span *ngIf="!isAddingToCart && bookData.stock > 0">Add to Cart</span>
+      <span *ngIf="isAddingToCart">
+        <i class="spinner-border spinner-border-sm me-1" role="status" aria-hidden="true"></i>
+        Adding...
+      </span>
+      <span *ngIf="!isAddingToCart && bookData.stock <= 0">Out of Stock</span>
+    </button>
+  </div>
+</div>

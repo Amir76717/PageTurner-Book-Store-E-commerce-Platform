@@ -1,8 +1,6 @@
 # PageTurner-Book-Store-E-commerce-Platform
 PageTurner is a sophisticated online bookstore platform built on the MEAN stack (MongoDB, Express.js, Angular, and Node.js). Designed for the Information Technology Institute (ITI), this application offers a full-featured e-commerce experience tailored for book lovers and retailers alike.
 
-# Book Store E-commerce MEAN Stack Project
-
 ![MEAN Stack](https://img.shields.io/badge/MEAN-Stack-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Last Commit](https://img.shields.io/badge/Last%20Updated-March%202025-brightgreen)
